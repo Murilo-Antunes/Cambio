@@ -1,1 +1,3 @@
-Software de estudo para converção de moeda
+Atividade básica de lógica de programação do SENAI afim de criar um software para converção de moeda de origem para uma moeda estrangeira.
+
+

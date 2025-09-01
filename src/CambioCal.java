@@ -29,7 +29,8 @@ public class CambioCal {
 
     public void mostrarResultado(){
 
-        System.out.println("1 " + moedaDestino + " = " + resultado + " " + moedaOrigem);
+        String valorConversaoComDoisDecimais = String.format("%.2f", resultado);
+        System.out.println("1 " + moedaDestino + " = " + valorConversaoComDoisDecimais + " " + moedaOrigem);
 
         System.out.println("********************");
     }

@@ -3,8 +3,8 @@ public class Cambio {
     public static void main(String[] args){
         System.out.println("*********************");
 
-        CambioCal CambioCal = new CambioCal();
+        CambioCal CambioApp = new CambioCal();
 
-        CambioCal.receberDados();
+        CambioApp.receberDados();
     }
 }

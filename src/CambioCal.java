@@ -15,7 +15,7 @@ public class CambioCal {
         System.out.println("Qual a moeda de destino?");
         moedaDestino = leitor.nextLine();
 
-        System.out.println("Qual o valor do câmbio de um " + moedaOrigem + " para um " + moedaDestino + "?");
+        System.out.println("Qual o valor do câmbio de um " + moedaDestino + " em " + moedaOrigem + "?");
         valorCotacao = leitor.nextDouble();
 
         calcularCambio();
@@ -29,8 +29,8 @@ public class CambioCal {
 
     public void mostrarResultado(){
 
-        System.out.println("1 " + moedaDestino + " = " + resultado + " " + moedaOrigem);
+        System.out.println("1 " + moedaOrigem + " = " + resultado + " " + moedaDestino);
 
-        System.out.println("*********************");
+        System.out.println("********************");
     }
 }
